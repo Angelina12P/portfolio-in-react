@@ -1,5 +1,6 @@
 import React from "react";
 import Project from "./Project";
+import ProjectsPageStyle from "./ProjectsPageStyle.css"
 
 function Projects(){
     // get projects 

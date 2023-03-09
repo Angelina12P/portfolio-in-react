@@ -1,4 +1,5 @@
 import React from "react";
+import HeaderStyle from "./HeaderStyle.css"
 
 function Header(){
     <nav>
