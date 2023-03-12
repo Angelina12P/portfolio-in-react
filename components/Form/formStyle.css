@@ -1,0 +1,49 @@
+.formWrapper{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+    border: 1px solid red;
+    text-align: center;
+    align-items: center;
+}
+    
+    .formWrapper label {
+        width: 100px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    background-color: orange;
+    }
+    
+    .formWrapper input,
+    .formWrapper textarea {
+        width: 400px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #1197c8;
+    border-radius: 5px;
+    font-size: 16px;
+    }
+    
+    .formWrapper button {
+        margin:20px;
+    padding: 10px;
+    background-color: yellow;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    }
+    
+    .formWrapper button:hover {
+        background-color: purple;
+    }
+    
+    .formWrapper .error {
+    background-color: #ff0000;
+    font-size: 14px;
+    margin-top: 5px;
+    position: absolute;
+    z-index: 20;
+    }

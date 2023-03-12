@@ -1,8 +1,8 @@
 import React from "react";
-import Home from "./components/HomePage.js";
-import Projects from "./components/ProjectsPage.js";
-import Contact from "./components/ContactPage.js";
-import Header from "./components/Header.js";
+import Home from "./components/HomePage/HomePage.js";
+import Projects from "./components/ProjectsPage/ProjectsPage.js";
+import Contact from "./components/ContactPage/ContactPage.js";
+import Header from "./components/Header/Header.js";
 // import Project from "./components/Project";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 

@@ -1,16 +1,17 @@
 import React from "react";
-import HomePageStyle from "./HomePageStyle.css";
-import Header from "./Header.js"
+import "./HomePageStyle.css";
+import Wrapper from "../Wrapper";
+import Title from "../Title";
 
 function Home(){
     return(
-        <div>
+        <Wrapper>
+        <Title> Angelina Pürschel </Title>
             <div>
-            <h1>Angelina Pürschel</h1>
             <img src=" " alt=""></img>
             <h2>Brand Statement</h2>
             </div>
-        </div>
+        </Wrapper>
     )
 }
 

@@ -1,9 +1,9 @@
 import React from "react";
-import Project from "./Project.js";
-import projects from "./projects.json";
-// import ProjectsPageStyle from "./ProjectsPageStyle.css"
-import Wrapper from "./Wrapper";
-import Title from "./Title";
+import Project from "../Project.js";
+import projects from "../projects.json";
+// import "./ProjectsPageStyle.css"
+import Wrapper from "../Wrapper";
+import Title from "../Title";
 
 
 function Projects() {
