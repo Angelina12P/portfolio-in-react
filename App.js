@@ -5,7 +5,7 @@ import Contact from "./components/ContactPage.js";
 import Header from "./components/Header.js";
 // import Project from "./components/Project";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-
+// here is some newstuff to commit 
 
 function App() {
   return (
