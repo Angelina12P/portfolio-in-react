@@ -3,8 +3,7 @@ import "./formStyle.css";
 
 class Form extends Component {
   state = {
-    firstName: "",
-    lastName: "",
+    Name: "",
     email: "",
     message: "",
     errors: {}
@@ -22,10 +21,9 @@ class Form extends Component {
     event.preventDefault();
 
     if (this.validateForm()) {
-      alert(`Thank you for your message, ${this.state.firstName} ${this.state.lastName}!`);
+      alert(`Thank you for your message, ${this.state.Name}!`);
       this.setState({
-        firstName: "",
-        lastName: "",
+        Name: "",
         email: "",
         message: "",
         errors: {}
@@ -37,13 +35,8 @@ class Form extends Component {
     let errors = {};
     let isValid = true;
 
-    if (!this.state.firstName) {
-      errors.firstName = "Please enter your first name.";
-      isValid = false;
-    }
-
-    if (!this.state.lastName) {
-      errors.lastName = "Please enter your last name.";
+    if (!this.state.Name) {
+      errors.Name = "Please enter your name.";
       isValid = false;
     }
 
@@ -70,24 +63,16 @@ class Form extends Component {
     return (
       <div>
         <form className="form" onSubmit={this.handleFormSubmit}>
-          <label htmlFor="firstName">First Name</label>
+          <label htmlFor="Name">Name</label>
           <input
-            value={this.state.firstName}
-            name="firstName"
-            id="firstName"
+            value={this.state.nameName}
+            name="Name"
+            id="Name"
+            placeholder="Enter your name"
             onChange={this.handleInputChange}
             type="text"
           />
-          {errors.firstName && <span className="error">{errors.firstName}</span>}
-          <label htmlFor="lastName">Last Name</label>
-          <input
-            value={this.state.lastName}
-            name="lastName"
-            id="lastName"
-            onChange={this.handleInputChange}
-            type="text"
-          />
-          {errors.lastName && <span className="error">{errors.lastName}</span>}
+          {errors.Name && <span className="error">{errors.Name}</span>}
           <label htmlFor="email">Email</label>
           <input
             value={this.state.email}

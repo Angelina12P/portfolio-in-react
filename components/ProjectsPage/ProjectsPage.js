@@ -9,7 +9,8 @@ import Title from "../Title";
 function Projects() {
 
     return (
-        <Wrapper>
+        <div>
+            <Wrapper>
             <Title> Projects: </Title>
             <Project
                 title={projects[0].title}
@@ -47,8 +48,8 @@ function Projects() {
                 repoLink={projects[5].repoLink}
                 image={projects[5].image}
             />
-
-        </Wrapper>
+            </Wrapper>
+        </div>
     );
 
 
