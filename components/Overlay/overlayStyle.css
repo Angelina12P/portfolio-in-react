@@ -1,0 +1,34 @@
+:root{
+  --light: #f2f2f2;
+  --lighty: #fce3bb;
+  --o1: #823303;
+  --o2: #ac540e;
+  --o3: #ce782c;
+  --g1: #0e1803;
+  --g2: #172404;
+  --g3: #324201;
+  --g4: #627806;
+  --dark: #1d1b26;
+  --darker: #1e1c1c;
+  --darks: #36454f;
+  --darkslate: #3d4849;
+  --darkN:#06191d;
+}
+
+#textBit {
+    display: flex;
+    position: relative;
+    background-color: #0807078d;
+    z-index: 1;
+    color: rgba(243, 231, 231, 0.266);
+    font-style: italic;
+    transition: all 0.1s ease-in;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    transition: font-size 1s ease;
+    text-align: center;
+    font-family: inherit!important;
+  }
+  

@@ -1,4 +1,105 @@
 
-div{
-    background-color:green;
+:root{
+    --light: #f2f2f2;
+    --lighty: #fce3bbdc;
+    --o1: #823303;
+    --o2: #ac550ed3;
+    --o3: #ce782cde;
+    --g1: #0e1803;
+    --g2: #172404;
+    --g3: #324201;
+    --g4: #627806;
+    --dark: #1d1b26;
+    --darker: #1e1c1c;
+    --darks: #36454f;
+    --darkslate: #3d4849;
+    --darkN:#06191d;
+    --black:#00000290;
+    --text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.589);
+  
+  }
+
+.brandStatement{
+    color:var(--lighty);
+    width:25vw;
+    height: 50vh;
+    text-shadow: var(--text-shadow);
+    padding:30px;
+    margin:30px;
+    margin-left: 68px;
+    position: absolute;
+    top: 52vh;
+    line-height: 300%;
+}
+.highlight{
+    color: var(--o3);
+    font-size: 50px;
+    position: relative;
+    top: 6px;
+    margin:3px;
+    z-index:2;
+}
+.BackgroundPic{
+    height:100vh;
+    position: absolute;
+    top:0;
+    right:0%;
+    -webkit-mask-image: linear-gradient(to left, rgb(0, 0, 0), 40%, transparent);
+    mask-image: linear-gradient(to left, black, 60%, transparent); 
+    
+}
+.firstName{
+    top: 21vh;
+    left: 14vw;
+    color: var(--lighty)
+}
+.secondName{
+    top: 28vh;
+    left: 36vw;
+    /* color: var(--o3); */
+    color: transparent;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-size: 120%;
+    animation: bg-animation 60s cubic-bezier(0.3, 0, 0.7, 1) infinite;
+}
+.firstName, .secondName{
+    position: relative;
+    font-size: 5rem;
+    margin-bottom: 50px;
+    font-family: kaushan script;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: var(--text-shadow);
+    z-index:20;
+}
+
+@keyframes bg-animation {
+    0% {background-position: 0% 0%;}
+    50% {background-position: 100% 100%;}
+    100% {background-position: 0% 0%;}
+}
+
+
+
+
+
+
+.colourBlock{
+    background-image: linear-gradient(to right, var(--o2), var(--o3));
+    width: 30vw;
+    height:90px;
+    position: absolute;
+    bottom: 79px;
+    right: 18vw;
+    border-radius: 50px;
+    box-shadow: var(--text-shadow);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: var(--black);
+    font-family: unna;
+    font-size: 25px;
 }

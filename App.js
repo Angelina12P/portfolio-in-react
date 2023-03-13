@@ -5,6 +5,7 @@ import Contact from "./components/ContactPage/ContactPage.js";
 import Header from "./components/Header/Header.js";
 // import Project from "./components/Project";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import "./app.css";
 
 
 function App() {

@@ -1,7 +1,7 @@
 import React from "react";
-import Project from "../Project.js";
-import projects from "../projects.json";
-// import "./ProjectsPageStyle.css"
+import Project from "../ProjectsPage/Project/Project.js";
+import projects from "../ProjectsPage/projects.json";
+import "./ProjectsPageStyle.css"
 import Wrapper from "../Wrapper";
 import Title from "../Title";
 

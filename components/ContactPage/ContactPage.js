@@ -6,7 +6,7 @@ import Form from "../Form/Form.js";
 import "../Form/formStyle.css";
 
 function Contact(){
-    return(<div>
+    return(<div className="contactpage">
         <Title> Contact: </Title>
             <h2>angelwork128@outlook.com</h2>
             <h2> Send me a message:</h2>

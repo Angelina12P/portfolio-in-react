@@ -1,8 +1,39 @@
+:root{
+  --light: #f2f2f2;
+  --lighty: #fce3bb;
+  --o1: #823303;
+  --o2: #ac540e;
+  --o3: #ce782c;
+  --g1: #0e1803;
+  --g2: #172404;
+  --g3: #324201;
+  --g4: #627806;
+  --dark: #1d1b26;
+  --darker: #1e1c1c;
+  --darks: #36454f;
+  --darkslate: #3d4849;
+  --darkN:#06191d;
+  --black:#000002;
+}
+
+
+
 .title {
+  color: transparent;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-size: 120%;
+  animation: bg-animation 60s cubic-bezier(0.3, 0, 0.7, 1) infinite;
+  position: relative;
+  top: 30px;
   width: 100%;
   text-align: center;
   font-size: 3rem;
-  text-decoration: underline;
-  color: #2A77AE;
   margin-bottom: 50px;
+  font-family: kaushan script;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  z-index: 50;
 }

@@ -1,11 +1,28 @@
+:root{
+  --light: #f2f2f2;
+  --lighty: #fce3bb;
+  --o1: #823303;
+  --o2: #ac540e;
+  --o3: #ce782c;
+  --g1: #0e1803;
+  --g2: #172404;
+  --g3: #324201;
+  --g4: #627806;
+  --dark: #1d1b26;
+  --darker: #1e1c1c;
+  --darks: #36454f;
+  --darkslate: #3d4849;
+  --darkN:#06191d;
+  --black:#000002;
+}
+
 .wrapper {
-  padding-top: 50px;
-  background: #ECEFF1;
-  height: 100%;
+  background: var(--black);
+  height: 100vh;
+  width:100vw;
   display: flex;
   flex-flow: row wrap;
-  padding: 20px;
   justify-content: space-around;
   align-content: flex-start;
-  overflow: auto;
+  overflow: hidden;
 }
